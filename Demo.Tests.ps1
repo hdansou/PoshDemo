@@ -1,6 +1,4 @@
-﻿$here = Split-Path -Parent $MyInvocation.MyCommand.Path
-$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
-. "$here\$sut"
+Import-Module "$PSScriptRoot\PoshDemo.ps1" -Force
 
 Describe 'add' {
     It 'adds 1 and 1' {
