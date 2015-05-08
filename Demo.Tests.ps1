@@ -1,4 +1,4 @@
-Import-Module "$PSScriptRoot\PoshDemo.ps1" -Force
+Import-Module "$PSScriptRoot\Demo.ps1" -Force
 
 Describe 'add' {
     It 'adds 1 and 1' {
